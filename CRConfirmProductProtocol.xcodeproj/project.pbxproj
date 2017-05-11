@@ -8,16 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		568EF23D1EC46D110047A643 /* CRConfirmProductProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 568EF23B1EC46D110047A643 /* CRConfirmProductProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568EF24B1EC46D200047A643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF24A1EC46D200047A643 /* main.m */; };
+		568EF24E1EC46D200047A643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF24D1EC46D200047A643 /* AppDelegate.m */; };
+		568EF2511EC46D200047A643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF2501EC46D200047A643 /* ViewController.m */; };
+		568EF2541EC46D200047A643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2521EC46D200047A643 /* Main.storyboard */; };
+		568EF2561EC46D200047A643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2551EC46D200047A643 /* Assets.xcassets */; };
+		568EF2591EC46D200047A643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2571EC46D200047A643 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		568EF2381EC46D110047A643 /* CRConfirmProductProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRConfirmProductProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		568EF23B1EC46D110047A643 /* CRConfirmProductProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConfirmProductProtocol.h; sourceTree = "<group>"; };
 		568EF23C1EC46D110047A643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568EF2471EC46D200047A643 /* CRConfirmProductProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmProductProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568EF24A1EC46D200047A643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568EF24C1EC46D200047A643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		568EF24D1EC46D200047A643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		568EF24F1EC46D200047A643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		568EF2501EC46D200047A643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		568EF2531EC46D200047A643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568EF2551EC46D200047A643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568EF2581EC46D200047A643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568EF25A1EC46D200047A643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		568EF2341EC46D110047A643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568EF2441EC46D200047A643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				568EF23A1EC46D110047A643 /* CRConfirmProductProtocol */,
+				568EF2481EC46D200047A643 /* CRConfirmProductProtocolDemo */,
 				568EF2391EC46D110047A643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				568EF2381EC46D110047A643 /* CRConfirmProductProtocol.framework */,
+				568EF2471EC46D200047A643 /* CRConfirmProductProtocolDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +75,30 @@
 				568EF23C1EC46D110047A643 /* Info.plist */,
 			);
 			path = CRConfirmProductProtocol;
+			sourceTree = "<group>";
+		};
+		568EF2481EC46D200047A643 /* CRConfirmProductProtocolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				568EF24C1EC46D200047A643 /* AppDelegate.h */,
+				568EF24D1EC46D200047A643 /* AppDelegate.m */,
+				568EF24F1EC46D200047A643 /* ViewController.h */,
+				568EF2501EC46D200047A643 /* ViewController.m */,
+				568EF2521EC46D200047A643 /* Main.storyboard */,
+				568EF2551EC46D200047A643 /* Assets.xcassets */,
+				568EF2571EC46D200047A643 /* LaunchScreen.storyboard */,
+				568EF25A1EC46D200047A643 /* Info.plist */,
+				568EF2491EC46D200047A643 /* Supporting Files */,
+			);
+			path = CRConfirmProductProtocolDemo;
+			sourceTree = "<group>";
+		};
+		568EF2491EC46D200047A643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568EF24A1EC46D200047A643 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +133,23 @@
 			productReference = 568EF2381EC46D110047A643 /* CRConfirmProductProtocol.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		568EF2461EC46D200047A643 /* CRConfirmProductProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568EF25B1EC46D200047A643 /* Build configuration list for PBXNativeTarget "CRConfirmProductProtocolDemo" */;
+			buildPhases = (
+				568EF2431EC46D200047A643 /* Sources */,
+				568EF2441EC46D200047A643 /* Frameworks */,
+				568EF2451EC46D200047A643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRConfirmProductProtocolDemo;
+			productName = CRConfirmProductProtocolDemo;
+			productReference = 568EF2471EC46D200047A643 /* CRConfirmProductProtocolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +163,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					568EF2461EC46D200047A643 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 568EF2321EC46D110047A643 /* Build configuration list for PBXProject "CRConfirmProductProtocol" */;
@@ -105,6 +175,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 568EF22E1EC46D110047A643;
 			productRefGroup = 568EF2391EC46D110047A643 /* Products */;
@@ -112,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				568EF2371EC46D110047A643 /* CRConfirmProductProtocol */,
+				568EF2461EC46D200047A643 /* CRConfirmProductProtocolDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +193,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568EF2451EC46D200047A643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568EF2591EC46D200047A643 /* LaunchScreen.storyboard in Resources */,
+				568EF2561EC46D200047A643 /* Assets.xcassets in Resources */,
+				568EF2541EC46D200047A643 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +216,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		568EF2431EC46D200047A643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568EF2511EC46D200047A643 /* ViewController.m in Sources */,
+				568EF24E1EC46D200047A643 /* AppDelegate.m in Sources */,
+				568EF24B1EC46D200047A643 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		568EF2521EC46D200047A643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568EF2531EC46D200047A643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568EF2571EC46D200047A643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568EF2581EC46D200047A643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		568EF23E1EC46D110047A643 /* Debug */ = {
@@ -267,6 +378,28 @@
 			};
 			name = Release;
 		};
+		568EF25C1EC46D200047A643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRConfirmProductProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRConfirmProductProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		568EF25D1EC46D200047A643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRConfirmProductProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRConfirmProductProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +417,14 @@
 			buildConfigurations = (
 				568EF2411EC46D110047A643 /* Debug */,
 				568EF2421EC46D110047A643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		568EF25B1EC46D200047A643 /* Build configuration list for PBXNativeTarget "CRConfirmProductProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568EF25C1EC46D200047A643 /* Debug */,
+				568EF25D1EC46D200047A643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
