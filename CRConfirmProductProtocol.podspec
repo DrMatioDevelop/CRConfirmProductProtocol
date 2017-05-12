@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
     s.authors      = {'d2c_cyf' => '494197638@qq.com'}
     s.platform     = :ios, "8.0"
     s.source       = { :git => "https://github.com/DrMatioDevelop/CRConfirmProductProtocol.git", :tag => "#{s.version}" }
-    s.source_files  = "CRConfirmProductProtocol/**/*.{h,m}","CRConfirmProductProtocol/**/*.{h}"
+    s.source_files  = "CRConfirmProductProtocol/**/*.{h,m}"
     s.requires_arc = true
 end
