@@ -14,6 +14,9 @@
 		568EF2541EC46D200047A643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2521EC46D200047A643 /* Main.storyboard */; };
 		568EF2561EC46D200047A643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2551EC46D200047A643 /* Assets.xcassets */; };
 		568EF2591EC46D200047A643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EF2571EC46D200047A643 /* LaunchScreen.storyboard */; };
+		568EF26F1EC54C590047A643 /* CRAboutOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 568EF26D1EC54C590047A643 /* CRAboutOrder.h */; };
+		568EF2701EC54C590047A643 /* CRAboutOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF26E1EC54C590047A643 /* CRAboutOrder.m */; };
+		568EF2711EC54C590047A643 /* CRAboutOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EF26E1EC54C590047A643 /* CRAboutOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,8 @@
 		568EF2551EC46D200047A643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568EF2581EC46D200047A643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568EF25A1EC46D200047A643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568EF26D1EC54C590047A643 /* CRAboutOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAboutOrder.h; sourceTree = "<group>"; };
+		568EF26E1EC54C590047A643 /* CRAboutOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAboutOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,8 @@
 			children = (
 				568EF23B1EC46D110047A643 /* CRConfirmProductProtocol.h */,
 				568EF23C1EC46D110047A643 /* Info.plist */,
+				568EF26D1EC54C590047A643 /* CRAboutOrder.h */,
+				568EF26E1EC54C590047A643 /* CRAboutOrder.m */,
 			);
 			path = CRConfirmProductProtocol;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568EF26F1EC54C590047A643 /* CRAboutOrder.h in Headers */,
 				568EF23D1EC46D110047A643 /* CRConfirmProductProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568EF2701EC54C590047A643 /* CRAboutOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568EF2511EC46D200047A643 /* ViewController.m in Sources */,
+				568EF2711EC54C590047A643 /* CRAboutOrder.m in Sources */,
 				568EF24E1EC46D200047A643 /* AppDelegate.m in Sources */,
 				568EF24B1EC46D200047A643 /* main.m in Sources */,
 			);
