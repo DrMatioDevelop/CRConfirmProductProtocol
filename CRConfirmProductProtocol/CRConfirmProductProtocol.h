@@ -6,14 +6,15 @@
 //  Copyright © 2017年 d2c_cyf. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-//! Project version number for CRConfirmProductProtocol.
-FOUNDATION_EXPORT double CRConfirmProductProtocolVersionNumber;
+@protocol CRConfirmOrderServiceProtocol <NSObject>
 
-//! Project version string for CRConfirmProductProtocol.
-FOUNDATION_EXPORT const unsigned char CRConfirmProductProtocolVersionString[];
+- (UIViewController *)confirmOrderVIewControllerWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete;
 
-// In this header, you should import all the public headers of your framework using statements like #import <CRConfirmProductProtocol/PublicHeader.h>
+
+@end
+
 
 

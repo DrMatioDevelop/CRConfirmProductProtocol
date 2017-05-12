@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'CRConfirmProductProtocol'
-    s.version      = '0.0.4'
+    s.version      = '0.0.5'
     s.summary      = 'order confirm'
     s.homepage     = 'https://github.com/DrMatioDevelop/CRConfirmProductProtocol'
     s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
